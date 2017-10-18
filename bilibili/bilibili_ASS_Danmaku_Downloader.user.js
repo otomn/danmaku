@@ -34,7 +34,7 @@ var config = {
     '黑体',
   ],
   'font_size': 1.0,          // 字号（比例）
-  'r2ltime': 8,              // 右到左弹幕持续时间（秒）
+  'r2ltime': 12,              // 右到左弹幕持续时间（秒）
   'fixtime': 4,              // 固定弹幕持续时间（秒）
   'opacity': 0.6,            // 不透明度（比例）
   'space': 0,                // 弹幕间隔的最小水平距离（像素）
@@ -193,8 +193,8 @@ Timer: 10.0000
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Fix,{{font}},25,&H{{alpha}}FFFFFF,&H{{alpha}}FFFFFF,&H{{alpha}}000000,&H{{alpha}}000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,2,0
-Style: R2L,{{font}},25,&H{{alpha}}FFFFFF,&H{{alpha}}FFFFFF,&H{{alpha}}000000,&H{{alpha}}000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,2,0
+Style: Fix,{{font}},25,&H{{alpha}}FFFFFF,&H{{alpha}}FFFFFF,&H{{alpha}}000000,&H{{alpha}}000000,1,0,0,0,100,100,0,0,1,1,0,2,20,20,2,0
+Style: R2L,{{font}},25,&H{{alpha}}FFFFFF,&H{{alpha}}FFFFFF,&H{{alpha}}000000,&H{{alpha}}000000,1,0,0,0,100,100,0,0,1,1,0,2,20,20,2,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
